@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #1e293b;
+    background-color: #f4f7fc;
+}
+
+/* Header styles */
+header {
+    background: #123567;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin-bottom: 0;
+    color: #bfdbfe;
+}
+
+/* Footer styles */
+footer {
+    background-color: #123567;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: auto;
+}
+
+/* Product styles */
+.product {
+    width: 300px;
+    max-width: calc(100% - 44px);
+    padding: 20px;
+    border: 2px solid #2563eb;
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #2563eb;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.product h2 {
+    color: #123567;
+}
+
+/* Table styles */
+.product-specs {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.product-specs th,
+.product-specs td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-specs th {
+    background-color: #123567;
+    color: white;
+}
+
+.product-specs tr:nth-child(even) {
+    background-color: #eaf2ff;
+}
+
+.product-specs tr:hover {
+    background-color: #dbeafe;
+}
+
+/* Form styles */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.contact-form form {
+    width: 350px;
+    max-width: calc(100% - 64px);
+    border: 1px solid #cbd5e1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    color: #123567;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .product {
+        margin: 20px auto;
+    }
+
+    .product-specs {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .product-specs th,
+    .product-specs td {
+        padding: 7px;
+    }
+}
