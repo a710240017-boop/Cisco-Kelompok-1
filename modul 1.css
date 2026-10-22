@@ -1,0 +1,77 @@
+/* Pengaturan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #8a5656;
+    padding: 20px;
+    text-align: center;
+}
+
+#header {
+    border-bottom: 2px solid orange;
+}
+
+#header h1 {
+    color: orange;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Pembatas antara header dan main */
+header + main {
+    border-top: 1px solid gray;
+}
+
+/* Bagian Konten (Section) */
+section {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+}
+
+h2 {
+    color: black;
+}
+
+/* Paragraf dan selektor teks */
+p {
+    color: slategray;
+    font-size: 16px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+/* Kelas untuk menyorot teks */
+.highlight {
+    background-color: orange;
+    color: white;
+    padding: 4px;
+}
+
+/* Footer dan Tautan */
+footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+a[href^="mailto:"] {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
